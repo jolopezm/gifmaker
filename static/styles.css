@@ -1,0 +1,20 @@
+.image-grid-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: flex-start;
+}
+
+.image-container {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 4px;
+    background: #f8f8f8;
+}
+
+.image-item {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
