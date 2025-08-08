@@ -2,6 +2,9 @@
 
 GifMaker is a simple web application that allows you to **upload images**, arrange them, choose the duration of each frame and the number of loops, and finally **create a downloadable animated GIF**.
 
+<img width="870" height="909" alt="image" src="https://github.com/user-attachments/assets/5bb2db8b-2f1c-4c36-b4e8-0318892a09f9" />
+
+
 ## Features
 
   - **Image Upload**: Upload multiple images from your computer.
@@ -70,5 +73,8 @@ gifmaker/
 None (idk)
 
 -----
+
+![output](https://github.com/user-attachments/assets/c1fb4c6e-d96a-45f1-959a-b8e5179eaf96)
+
 
 Enjoy creating your own animated GIFs\!
