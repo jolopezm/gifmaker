@@ -22,7 +22,7 @@ def render_home(images, uploads_dir):
             hx_post="/delete_all",
             hx_target="#image-list",
             hx_swap="innerHTML",
-            cls="delete-all-btn",
+
             hx_on="htmx:afterRequest:window.location.reload()" 
         ),
 

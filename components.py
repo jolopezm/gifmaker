@@ -7,7 +7,7 @@ def render_image_list(images, uploads_dir):
         rows.append(
             Tr(
                 Td(
-                    Img(src=f"/{uploads_dir}/{img}", cls="order-image", style="width:100px;height:100px;object-fit:cover;")
+                    Img(src=f"/{uploads_dir}/{img}", style="width:100px;height:100px;object-fit:cover;")
                 ),
                 Td(
                     Input(
@@ -16,7 +16,6 @@ def render_image_list(images, uploads_dir):
                         min="1",
                         max=str(len(images)),
                         value=str(idx + 1),
-                        cls="order-input"
                     )
                 )
             )
@@ -31,10 +30,9 @@ def render_image_list(images, uploads_dir):
                 )
             ),
             Tbody(*rows),
-            cls="order-table"
+
         ) if images else P("No images uploaded yet."),
         id="image-list",
-        cls="image-list"
     )
 
 def render_gif_result(gif_path):

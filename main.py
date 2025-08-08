@@ -1,5 +1,5 @@
 from fasthtml.common import *
-from pages.home import render_home
+from home import render_home
 from config import app, rt, uploads_dir
 from components import render_image_list, render_gif_result
 import imageio.v3 as iio
